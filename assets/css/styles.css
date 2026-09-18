@@ -312,7 +312,7 @@
 
   /* ===================== CONTACT ===================== */
   #contact{ background:var(--surface); border-top:1px solid var(--border); }
-  .contact-grid{ display:grid; grid-template-columns:1fr 420px; gap:64px; }
+  .contact-grid{ display:grid; grid-template-columns:1fr; max-width:640px; }
   .contact-copy h2{
     font-family:var(--font-display); font-size:clamp(1.85rem, 3vw, 2.4rem);
     font-weight:600; line-height:1.18; max-width:16ch;
@@ -329,30 +329,6 @@
   }
   .contact-method a:hover{ color:var(--gold); text-decoration:underline; }
   .btn-whatsapp{ display:inline-flex; align-items:center; gap:10px; margin-top:22px; }
-
-  form.case-form{ background:var(--bg); border:1px solid var(--border); border-radius:4px; padding:32px; }
-  .case-form .form-tag{
-    font-family:var(--font-mono); font-size:0.67rem; color:var(--text-faint);
-    text-transform:uppercase; letter-spacing:0.05em; display:block; margin-bottom:22px;
-    padding-bottom:16px; border-bottom:1px solid var(--border);
-  }
-  .field{ margin-bottom:18px; }
-  .field label{ display:block; font-size:0.77rem; color:var(--text-dim); margin-bottom:7px; font-weight:500; }
-  .field input, .field select, .field textarea{
-    width:100%; background:var(--surface); border:1px solid var(--border-strong); border-radius:3px;
-    padding:11px 13px; color:var(--text); font-family:var(--font-body); font-size:0.89rem;
-    transition:border-color 0.2s ease;
-  }
-  .field input:focus, .field select:focus, .field textarea:focus{ border-color:var(--gold); outline:none; }
-  .field textarea{ resize:vertical; min-height:88px; }
-  .field-row{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }
-  .case-form .btn{ width:100%; justify-content:center; margin-top:6px; }
-  .form-note{ font-size:0.75rem; color:var(--text-faint); margin-top:14px; text-align:center; }
-
-  @media(max-width:900px){
-    .contact-grid{ grid-template-columns:1fr; }
-    .field-row{ grid-template-columns:1fr; }
-  }
 
   /* ===================== FOOTER ===================== */
   footer{ padding:48px 0 32px; }

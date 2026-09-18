@@ -64,15 +64,9 @@
       "contact.kicker":"Contact","contact.title":"Every engagement starts with a confidential conversation.",
       "contact.body":"Tell us about the context of your case or project. We'll respond with next steps and, where relevant, a confidentiality agreement ahead of any information exchange.",
       "contact.email":"Email","contact.scope":"Scope","contact.scopeval":"International projects and cases","contact.response":"Response","contact.responseval":"Within 1 business day","contact.whatsapp":"Message us on WhatsApp",
-      "form.tag":"Contact form","form.name":"Full name","form.name.ph":"Full name","form.org":"Organization","form.org.ph":"Company / firm",
-      "form.email":"Email","form.email.ph":"name@company.com","form.service":"Service of interest",
-      "form.opt1":"Data migration","form.opt2":"Integration & governance","form.opt3":"Risk & fraud detection","form.opt4":"Forensic traceability & AI auditability",
-      "form.opt6":"Other / not sure",
-      "form.msg":"Brief description of the case or project","form.msg.ph":"Context, jurisdiction if applicable, and relevant timelines",
-      "form.submit":"Send request","form.note":"Information shared is treated as confidential.",
       "foot.services":"Services","foot.s1":"Data migration","foot.s2":"Integration & governance","foot.s3":"Risk & fraud detection","foot.s4":"Forensic traceability & AI auditability",
       "foot.company":"Company","foot.c1":"Methodology","foot.c2":"Sectors",
-      "foot.contact":"Contact","foot.form":"Contact form",
+      "foot.contact":"Contact","foot.form":"Get in touch",
       "foot.rights":"© 2026 TRACKSAN. All rights reserved.","foot.tag":"Data, Risk & Forensic Infrastructure"
     },
     es: {
@@ -124,15 +118,9 @@
       "contact.kicker":"Contacto","contact.title":"Cada proyecto comienza con una conversación confidencial.",
       "contact.body":"Cuéntenos el contexto de su caso o proyecto. Responderemos con los siguientes pasos y, si corresponde, un acuerdo de confidencialidad previo a cualquier intercambio de información.",
       "contact.email":"Correo","contact.scope":"Alcance","contact.scopeval":"Proyectos y casos internacionales","contact.response":"Respuesta","contact.responseval":"Dentro de 1 día hábil","contact.whatsapp":"Escríbenos por WhatsApp",
-      "form.tag":"Formulario de contacto","form.name":"Nombre completo","form.name.ph":"Nombre completo","form.org":"Organización","form.org.ph":"Empresa / estudio",
-      "form.email":"Correo electrónico","form.email.ph":"nombre@empresa.com","form.service":"Servicio de interés",
-      "form.opt1":"Migración de datos","form.opt2":"Integración y gobernanza","form.opt3":"Detección de riesgo y fraude","form.opt4":"Trazabilidad forense y auditabilidad de IA",
-      "form.opt6":"Otro / no estoy seguro",
-      "form.msg":"Descripción breve del caso o proyecto","form.msg.ph":"Contexto, jurisdicción si aplica, y plazos relevantes",
-      "form.submit":"Enviar solicitud","form.note":"La información compartida se trata de forma confidencial.",
       "foot.services":"Servicios","foot.s1":"Migración de datos","foot.s2":"Integración y gobernanza","foot.s3":"Detección de riesgo y fraude","foot.s4":"Trazabilidad forense y auditabilidad de IA",
       "foot.company":"Empresa","foot.c1":"Metodología","foot.c2":"Sectores",
-      "foot.contact":"Contacto","foot.form":"Formulario de contacto",
+      "foot.contact":"Contacto","foot.form":"Contáctanos",
       "foot.rights":"© 2026 TRACKSAN. Todos los derechos reservados.","foot.tag":"Data, Risk & Forensic Infrastructure"
     }
   };
