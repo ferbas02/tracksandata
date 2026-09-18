@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en" id="htmlRoot">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TRACKSAN — Auditable Data Infrastructure for Banks &amp; Government</title>
+<meta name="description" content="TRACKSAN migrates legacy data to Microsoft Azure and Fabric, governs it under DAMA-DMBOK, deploys risk and fraud detection, and adds forensic-grade traceability for community banks, credit unions, and state government agencies.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<!-- ============ TOPBAR ============ -->
+<header class="top">
+  <div class="wrap top-inner">
+    <a href="#top" class="logo">
+      <svg class="logo-mark" viewBox="0 0 48 48" fill="none">
+        <circle cx="24" cy="24" r="21" stroke="#C9A959" stroke-width="1.4" opacity="0.55"/>
+        <circle cx="24" cy="24" r="21" stroke="#C9A959" stroke-width="1.4" opacity="0.35" stroke-dasharray="2 3"/>
+        <circle cx="24" cy="10" r="2" fill="#F0F3F8"/>
+        <circle cx="36" cy="18" r="2" fill="#C9A959"/>
+        <circle cx="36" cy="30" r="2" fill="#F0F3F8"/>
+        <circle cx="24" cy="38" r="2" fill="#C9A959"/>
+        <circle cx="12" cy="30" r="2" fill="#F0F3F8"/>
+        <circle cx="12" cy="18" r="2" fill="#C9A959"/>
+        <circle cx="24" cy="24" r="2.6" fill="#F0F3F8"/>
+        <path d="M24 24L24 10M24 24L36 18M24 24L36 30M24 24L24 38M24 24L12 30M24 24L12 18" stroke="#9AACC4" stroke-width="0.8" opacity="0.5"/>
+      </svg>
+      <span class="logo-text">TRACKSAN<span class="tagline">Data, Risk &amp; Forensic Infrastructure</span></span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <div class="nav-links">
+        <a href="#practice" data-i18n="nav.services">Services</a>
+        <a href="#method" data-i18n="nav.method">Methodology</a>
+        <a href="#sectors" data-i18n="nav.sectors">Sectors</a>
+      </div>
+      <div class="nav-right">
+        <a href="#contact" class="btn-nav-contact" data-i18n="nav.contact">Contact</a>
+      </div>
+    </nav>
+
+    <div style="display:flex; align-items:center; gap:14px;">
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" id="langEN" class="active" onclick="setLang('en')">EN</button>
+        <button type="button" id="langES" onclick="setLang('es')">ES</button>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<div id="top"></div>
+<section class="hero">
+  <svg class="hero-mesh" viewBox="0 0 400 400" fill="none">
+    <circle cx="200" cy="200" r="150" stroke="#C9A959" stroke-width="0.7" opacity="0.25"/>
+    <circle cx="200" cy="200" r="110" stroke="#C9A959" stroke-width="0.7" opacity="0.2"/>
+    <circle cx="200" cy="200" r="70" stroke="#C9A959" stroke-width="0.7" opacity="0.15"/>
+    <circle cx="200" cy="50" r="3" fill="#C9A959" opacity="0.6"/>
+    <circle cx="330" cy="130" r="3" fill="#F0F3F8" opacity="0.4"/>
+    <circle cx="330" cy="270" r="3" fill="#C9A959" opacity="0.5"/>
+    <circle cx="200" cy="350" r="3" fill="#F0F3F8" opacity="0.3"/>
+    <circle cx="70" cy="270" r="3" fill="#C9A959" opacity="0.4"/>
+    <circle cx="70" cy="130" r="3" fill="#F0F3F8" opacity="0.5"/>
+    <path d="M200 200L200 50M200 200L330 130M200 200L330 270M200 200L200 350M200 200L70 270M200 200L70 130" stroke="#C9A959" stroke-width="0.5" opacity="0.25"/>
+  </svg>
+
+  <div class="wrap">
+    <div>
+      <span class="eyebrow" data-i18n="hero.eyebrow">Migration · Governance · Risk Detection · Forensic Audit</span>
+      <h1 class="hero-title" data-i18n="hero.title">Smart data solutions, <em>built to withstand scrutiny.</em></h1>
+      <div class="hero-rule"></div>
+      <p class="hero-lede" data-i18n="hero.lede">TRACKSAN migrates legacy on-premise systems to Microsoft Azure and Fabric, governs the result under DAMA-DMBOK, deploys risk and fraud detection models, and adds a forensic-standard traceability layer — built for banks, government agencies, large taxpayers, and other regulated organizations whose data has to hold up to an examiner, an auditor, or a court.</p>
+      <div class="hero-cta-row">
+        <a href="#contact" class="btn btn-primary" data-i18n="hero.cta1">Request a consultation</a>
+        <a href="#practice" class="btn btn-ghost" data-i18n="hero.cta2">View services</a>
+      </div>
+    </div>
+
+    <div class="hero-panel hero-panel--map reveal" id="migrationMap">
+      <div class="hero-panel-head">
+        <span class="tag" data-i18n="map.title">Migration map — on-prem to Azure, and beyond</span>
+        <span class="dot pulse" id="mapDot"></span>
+      </div>
+      <div class="map-wrap">
+        <svg viewBox="0 0 460 300" role="img" aria-label="Diagram: legacy on-premise systems such as Oracle, SQL Server and Sybase migrating primarily to Microsoft Azure, and optionally to other cloud platforms">
+          <text x="10" y="12" class="map-group-tag" data-i18n="map.legacyTag">LEGACY · ON-PREM</text>
+
+          <rect x="10" y="20" width="118" height="38" rx="7" fill="var(--surface-2)" stroke="var(--border-strong)"/>
+          <text x="69" y="43" text-anchor="middle" class="map-node-title">Oracle</text>
+
+          <rect x="10" y="64" width="118" height="38" rx="7" fill="var(--surface-2)" stroke="var(--border-strong)"/>
+          <text x="69" y="87" text-anchor="middle" class="map-node-title">SQL Server</text>
+
+          <rect x="10" y="108" width="118" height="38" rx="7" fill="var(--surface-2)" stroke="var(--border-strong)"/>
+          <text x="69" y="131" text-anchor="middle" class="map-node-title">Sybase</text>
+
+          <rect x="10" y="152" width="118" height="38" rx="7" fill="none" stroke="var(--border-strong)" stroke-dasharray="3 2"/>
+          <text x="69" y="175" text-anchor="middle" class="map-node-title muted" data-i18n="map.moreChip">+ more engines</text>
+
+          <path class="map-flow" d="M128,39 C165,39 165,97 202,99" stroke="var(--border-strong)"/>
+          <path class="map-flow mid" d="M128,83 C160,83 160,101 202,102" stroke="var(--border-strong)"/>
+          <path class="map-flow" d="M128,127 C165,127 165,106 202,105" stroke="var(--border-strong)"/>
+          <path class="map-flow faint" d="M128,171 C170,171 170,112 202,110" stroke="var(--border-strong)"/>
+
+          <circle cx="218" cy="103" r="15" fill="var(--surface-2)" stroke="var(--border-strong)"/>
+          <circle cx="218" cy="103" r="2.6" fill="var(--gold)"/>
+          <text x="218" y="132" text-anchor="middle" class="map-hub-caption" data-i18n="map.hubCaption">extract → validate → load</text>
+
+          <path class="map-flow mid" d="M233,97 C270,97 275,58 310,56" stroke="var(--azure)"/>
+          <path class="map-flow faint" d="M233,109 C270,109 275,168 310,170" stroke="var(--border-strong)"/>
+
+          <text x="310" y="14" class="map-lane-tag" style="fill:var(--azure)" data-i18n="map.azureTag">PREFERRED TARGET</text>
+          <rect x="310" y="20" width="140" height="76" rx="7" fill="var(--azure-soft)" stroke="var(--azure)" stroke-opacity="0.55"/>
+          <text x="380" y="46" text-anchor="middle" class="map-node-title" style="font-weight:600">Microsoft Azure</text>
+          <text x="380" y="61" text-anchor="middle" class="map-node-title small">Data Factory · Synapse</text>
+          <text x="380" y="74" text-anchor="middle" class="map-node-title small muted" data-i18n="map.azureMore">+ more of the stack</text>
+
+          <text x="310" y="130" class="map-lane-tag map-node-title muted" data-i18n="map.otherTag">ALSO SUPPORTED</text>
+          <rect x="310" y="136" width="140" height="66" rx="7" fill="none" stroke="var(--border-strong)" stroke-dasharray="3 2"/>
+          <text x="380" y="158" text-anchor="middle" class="map-node-title small muted" data-i18n="map.otherTitle">Other cloud platforms</text>
+          <text x="380" y="174" text-anchor="middle" class="map-node-title small muted">PostgreSQL · Aurora ·</text>
+          <text x="380" y="188" text-anchor="middle" class="map-node-title small muted">Snowflake · BigQuery · Databricks</text>
+
+          <g class="map-badge" data-badge>
+            <rect x="323" y="100" width="72" height="16" rx="8" fill="var(--bg)" stroke="var(--signal)" stroke-opacity="0.5"/>
+            <text x="359" y="111" text-anchor="middle" style="font-family:var(--font-mono); font-size:7px; fill:var(--signal)" data-i18n="map.verified">✓ verified</text>
+          </g>
+          <g class="map-badge" data-badge>
+            <text x="380" y="216" text-anchor="middle" style="font-family:var(--font-mono); font-size:6.5px; fill:var(--text-faint)" data-i18n="map.compatible">✓ compatible on request</text>
+          </g>
+        </svg>
+      </div>
+      <div class="map-foot">
+        <span data-i18n="map.foot1">Any legacy engine · one validation standard</span>
+        <span class="accent" data-i18n="map.foot2">Azure-first</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="trust-strip">
+  <div class="wrap">
+    <span class="item" data-i18n="trust.migration">Data migration <span class="dash">·</span></span>
+    <span class="item" data-i18n="trust.governance">Integration &amp; governance <span class="dash">·</span></span>
+    <span class="item" data-i18n="trust.risk">Risk &amp; fraud detection <span class="dash">·</span></span>
+    <span class="item" data-i18n="trust.forensic">Forensic AI auditability</span>
+  </div>
+</div>
+
+<!-- ============ PRACTICE / SERVICES ============ -->
+<section id="practice">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker" data-i18n="practice.kicker">What we do</span>
+      <h2 class="section-title" data-i18n="practice.sectiontitle">Four services, one sequence: migrate, integrate, detect, audit.</h2>
+      <p class="section-sub" data-i18n="practice.sectionsub">No line stands alone. Migration without governance doesn't solve auditability, and AI without forensic traceability won't survive regulatory examination.</p>
+    </div>
+
+    <div class="service-list">
+      <div class="service-row reveal">
+        <span class="service-num">01</span>
+        <div class="service-name" data-i18n="svc.migration.name">Data migration</div>
+        <div class="service-desc" data-i18n="svc.migration.desc">Legacy on-premise systems — Oracle, SQL Server, Sybase and equivalent platforms — moved to Microsoft Azure and Fabric on a lakehouse architecture, with a methodology that preserves full historical integrity and lineage from source to destination.</div>
+      </div>
+      <div class="service-row reveal">
+        <span class="service-num">02</span>
+        <div class="service-name" data-i18n="svc.governance.name">Integration &amp; governance</div>
+        <div class="service-desc" data-i18n="svc.governance.desc">Integration pipelines built under the DAMA-DMBOK framework, with data-quality, completeness and consistency metrics and full lineage documentation — turning scattered data into a trustworthy, auditable asset.</div>
+      </div>
+      <div class="service-row reveal">
+        <span class="service-num">03</span>
+        <div class="service-name" data-i18n="svc.risk.name">Risk &amp; fraud detection</div>
+        <div class="service-desc" data-i18n="svc.risk.desc">Risk-classification and anomaly-detection models — unsupervised learning, multivariate alerting — applied to tax and benefits administration as much as to financial institutions.</div>
+      </div>
+      <div class="service-row reveal">
+        <span class="service-num">04</span>
+        <div class="service-name" data-i18n="svc.forensic.name">Forensic traceability &amp; AI auditability</div>
+        <div class="service-desc" data-i18n="svc.forensic.desc">The differentiator: a lineage-control layer built to a forensic evidentiary standard, able to reconstruct the origin, transformation, and use of any data behind an AI model or regulatory report — so it holds up to a bank examiner, an auditor, or a court.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ METHOD ============ -->
+<section id="method" class="tight">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker" data-i18n="method.kicker">How we work</span>
+      <h2 class="section-title" data-i18n="method.title">Migrate. Integrate. Detect. Audit.</h2>
+      <p class="section-sub" data-i18n="method.sub">The same sequence in every engagement — each step depends on the one before it, and none is offered on its own.</p>
+    </div>
+
+    <div class="method-spine-wrap">
+      <div class="method-step reveal">
+        <span class="node-dot"></span><span class="method-connector"></span>
+        <span class="m-label" data-i18n="method.n1">Node 01 · Migrate</span>
+        <h3 data-i18n="method.t1">Legacy systems, moved intact</h3>
+        <p data-i18n="method.p1">On-premise Oracle, SQL Server, and Sybase systems migrated to Microsoft Azure and Fabric on a lakehouse architecture, preserving full historical integrity and lineage.</p>
+      </div>
+      <div class="method-step reveal">
+        <span class="node-dot"></span><span class="method-connector"></span>
+        <span class="m-label" data-i18n="method.n2">Node 02 · Integrate &amp; Govern</span>
+        <h3 data-i18n="method.t2">Data governed under DAMA-DMBOK</h3>
+        <p data-i18n="method.p2">Pipelines built with data-quality, completeness, and consistency controls, and full lineage documentation from source to destination.</p>
+      </div>
+      <div class="method-step reveal">
+        <span class="node-dot"></span><span class="method-connector"></span>
+        <span class="m-label" data-i18n="method.n3">Node 03 · Detect</span>
+        <h3 data-i18n="method.t3">Risk and fraud, made visible</h3>
+        <p data-i18n="method.p3">Unsupervised risk-classification and multivariate fraud-alert models applied to the now-governed data.</p>
+      </div>
+      <div class="method-step reveal">
+        <span class="node-dot"></span>
+        <span class="m-label" data-i18n="method.n4">Node 04 · Audit</span>
+        <h3 data-i18n="method.t4">Built to survive examination</h3>
+        <p data-i18n="method.p4">A forensic-standard traceability layer that reconstructs the origin, transformation, and use of any data behind an AI model or regulatory report.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SECTORS ============ -->
+<section id="sectors">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker" data-i18n="sectors.kicker">Who we serve</span>
+      <h2 class="section-title" data-i18n="sectors.title">Regulated sectors where data, tax, and audit exposure converge.</h2>
+    </div>
+
+    <div class="sector-grid reveal">
+      <div class="sector-cell">
+        <h4 data-i18n="sec1.h">Community banks, credit unions &amp; specialty finance</h4>
+        <p data-i18n="sec1.p">Institutions between USD 500M and USD 5B in assets — regulated enough to carry real compliance weight, small enough to lack an internal data-architecture team — facing the retirement of legacy core-banking platforms by Fiserv, FIS, and Jack Henry.</p>
+      </div>
+      <div class="sector-cell">
+        <h4 data-i18n="sec2.h">State revenue &amp; unemployment insurance agencies</h4>
+        <p data-i18n="sec2.p">Agencies still running decades-old mainframe systems, unable to cross-check data in real time — a gap tied to USD 100–135B in undetected pandemic-era unemployment fraud, and to state tax gaps most states have never even measured.</p>
+      </div>
+      <div class="sector-cell">
+        <h4 data-i18n="sec3.h">Large taxpayers &amp; other regulated industries</h4>
+        <p data-i18n="sec3.p">Transfer-pricing cases, extractive industries such as mining, and any organization whose tax position or data practices face sustained regulatory or judicial scrutiny — a structural gap that isn't unique to banks and government.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY ============ -->
+<section class="tight">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker" data-i18n="why.kicker">Why TRACKSAN</span>
+      <h2 class="section-title" data-i18n="why.title">Built on a track record, not a pitch.</h2>
+    </div>
+
+    <div class="why-grid">
+      <div class="why-item reveal">
+        <span class="why-mark">—</span>
+        <h4 data-i18n="why1.h">One standard, for every kind of scrutiny</h4>
+        <p data-i18n="why1.p">Every model and pipeline is built to reconstruct its own lineage — the same rigor a bank examiner, a state auditor, or a court would demand, documented once.</p>
+      </div>
+      <div class="why-item reveal">
+        <span class="why-mark">—</span>
+        <h4 data-i18n="why2.h">A track record with numbers behind it</h4>
+        <p data-i18n="why2.p">At Ecuador's national tax authority, a risk-classification model projected roughly USD 1.8B in recovered tax revenue, and a fraud-alert pipeline cut review time by 50% — the same discipline now applied to U.S. state agencies and mid-market banks.</p>
+      </div>
+      <div class="why-item reveal">
+        <span class="why-mark">—</span>
+        <h4 data-i18n="why3.h">Two forensic disciplines under one roof</h4>
+        <p data-i18n="why3.p">A court-certified forensic IT expert and a tax-litigation lead who has defended expert reports before Ecuador's tax courts for two decades — including transfer-pricing and extractive-industry cases for the country's largest taxpayers — work as one team. Data forensics and financial/tax forensics, applied together.</p>
+      </div>
+      <div class="why-item reveal">
+        <span class="why-mark">—</span>
+        <h4 data-i18n="why4.h">Azure-first, governed by DAMA-DMBOK</h4>
+        <p data-i18n="why4.p">Built on Microsoft Azure and Fabric, under the same data-governance framework applied as a consultant to the Inter-American Development Bank — not a generic tools stack.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact">
+  <div class="wrap contact-grid">
+    <div class="contact-copy reveal">
+      <span class="kicker" data-i18n="contact.kicker">Contact</span>
+      <h2 data-i18n="contact.title">Every engagement starts with a confidential conversation.</h2>
+      <p data-i18n="contact.body">Tell us about the context of your case or project. We'll respond with next steps and, where relevant, a confidentiality agreement ahead of any information exchange.</p>
+
+      <div class="contact-methods">
+        <div class="contact-method"><span class="lbl" data-i18n="contact.email">Email</span> contact@tracksan.com</div>
+        <div class="contact-method"><span class="lbl" data-i18n="contact.scope">Scope</span> <span data-i18n="contact.scopeval">International projects and cases</span></div>
+        <div class="contact-method"><span class="lbl" data-i18n="contact.response">Response</span> <span data-i18n="contact.responseval">Within 1 business day</span></div>
+      </div>
+    </div>
+
+    <form class="case-form" onsubmit="return false;">
+      <span class="form-tag" data-i18n="form.tag">Contact form</span>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="fname" data-i18n="form.name">Full name</label>
+          <input type="text" id="fname" name="fname" data-i18n-ph="form.name.ph" placeholder="Full name" required>
+        </div>
+        <div class="field">
+          <label for="forg" data-i18n="form.org">Organization</label>
+          <input type="text" id="forg" name="forg" data-i18n-ph="form.org.ph" placeholder="Company / firm">
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="femail" data-i18n="form.email">Email</label>
+        <input type="email" id="femail" name="femail" data-i18n-ph="form.email.ph" placeholder="name@company.com" required>
+      </div>
+
+      <div class="field">
+        <label for="fservice" data-i18n="form.service">Service of interest</label>
+        <select id="fservice" name="fservice">
+          <option data-i18n="form.opt1">Data migration</option>
+          <option data-i18n="form.opt2">Integration &amp; governance</option>
+          <option data-i18n="form.opt3">Risk &amp; fraud detection</option>
+          <option data-i18n="form.opt4">Forensic traceability &amp; AI auditability</option>
+          <option data-i18n="form.opt6">Other / not sure</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="fmsg" data-i18n="form.msg">Brief description of the case or project</label>
+        <textarea id="fmsg" name="fmsg" data-i18n-ph="form.msg.ph" placeholder="Context, jurisdiction if applicable, and relevant timelines"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary" data-i18n="form.submit">Send request</button>
+      <p class="form-note" data-i18n="form.note">Information shared is treated as confidential.</p>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <a href="#top" class="footer-logo">
+        <svg class="logo-mark" viewBox="0 0 48 48" fill="none">
+          <circle cx="24" cy="24" r="21" stroke="#C9A959" stroke-width="1.4" opacity="0.55"/>
+          <circle cx="24" cy="10" r="2" fill="#F0F3F8"/>
+          <circle cx="36" cy="18" r="2" fill="#C9A959"/>
+          <circle cx="36" cy="30" r="2" fill="#F0F3F8"/>
+          <circle cx="24" cy="38" r="2" fill="#C9A959"/>
+          <circle cx="12" cy="30" r="2" fill="#F0F3F8"/>
+          <circle cx="12" cy="18" r="2" fill="#C9A959"/>
+          <circle cx="24" cy="24" r="2.6" fill="#F0F3F8"/>
+          <path d="M24 24L24 10M24 24L36 18M24 24L36 30M24 24L24 38M24 24L12 30M24 24L12 18" stroke="#9AACC4" stroke-width="0.8" opacity="0.5"/>
+        </svg>
+        <span class="footer-logo-text">TRACKSAN</span>
+      </a>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h5 data-i18n="foot.services">Services</h5>
+          <a href="#practice" data-i18n="foot.s1">Data migration</a>
+          <a href="#practice" data-i18n="foot.s2">Integration &amp; governance</a>
+          <a href="#practice" data-i18n="foot.s3">Risk &amp; fraud detection</a>
+          <a href="#practice" data-i18n="foot.s4">Forensic traceability &amp; AI auditability</a>
+        </div>
+        <div class="footer-col">
+          <h5 data-i18n="foot.company">Company</h5>
+          <a href="#method" data-i18n="foot.c1">Methodology</a>
+          <a href="#sectors" data-i18n="foot.c2">Sectors</a>
+        </div>
+        <div class="footer-col">
+          <h5 data-i18n="foot.contact">Contact</h5>
+          <span>contact@tracksan.com</span>
+          <a href="#contact" data-i18n="foot.form">Contact form</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-i18n="foot.rights">© 2026 TRACKSAN. All rights reserved.</span>
+      <span data-i18n="foot.tag">Data, Risk &amp; Forensic Infrastructure</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
