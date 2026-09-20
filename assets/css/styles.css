@@ -310,6 +310,21 @@
     .why-item:nth-child(odd){ padding-right:0; }
   }
 
+  .team-grid{ display:grid; grid-template-columns:repeat(2, 1fr); gap:48px; }
+  .team-photo{
+    width:112px; height:112px; border-radius:50%; object-fit:cover;
+    margin-bottom:20px; border:1px solid var(--border-strong);
+  }
+  .team-name{ font-family:var(--font-display); font-size:1.2rem; font-weight:600; margin-bottom:4px; }
+  .team-role{
+    display:block; font-family:var(--font-mono); font-size:0.7rem; color:var(--gold);
+    text-transform:uppercase; letter-spacing:0.05em; margin-bottom:14px;
+  }
+  .team-card p{ color:var(--text-dim); font-size:0.89rem; line-height:1.65; max-width:44ch; }
+  @media(max-width:720px){
+    .team-grid{ grid-template-columns:1fr; gap:40px; }
+  }
+
   /* ===================== CONTACT ===================== */
   #contact{ background:var(--surface); border-top:1px solid var(--border); }
   .contact-grid{ display:grid; grid-template-columns:1fr; max-width:640px; }
@@ -328,7 +343,8 @@
     text-transform:uppercase; letter-spacing:0.05em; width:90px; flex-shrink:0;
   }
   .contact-method a:hover{ color:var(--gold); text-decoration:underline; }
-  .btn-whatsapp{ display:inline-flex; align-items:center; gap:10px; margin-top:22px; }
+  .contact-actions{ display:flex; flex-wrap:wrap; gap:14px; margin-top:22px; }
+  .btn-whatsapp, .btn-schedule{ display:inline-flex; align-items:center; gap:10px; }
 
   /* ===================== FOOTER ===================== */
   footer{ padding:48px 0 32px; }
