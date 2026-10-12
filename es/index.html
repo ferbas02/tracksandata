@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="es" id="htmlRoot">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TRACKSAN — Infraestructura de datos auditable para banca, gobierno y sectores regulados</title>
+<meta name="description" content="TRACKSAN migra datos heredados a infraestructura de nube moderna como Azure y Fabric, los gobierna bajo DAMA-DMBOK, despliega detección de riesgo y fraude, y añade trazabilidad con estándar forense para community banks, cooperativas de crédito y agencias estatales de gobierno.">
+
+<link rel="canonical" href="https://www.tracksandata.com/es/">
+<link rel="alternate" hreflang="en" href="https://www.tracksandata.com/">
+<link rel="alternate" hreflang="es" href="https://www.tracksandata.com/es/">
+<link rel="alternate" hreflang="x-default" href="https://www.tracksandata.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="TRACKSAN">
+<meta property="og:title" content="TRACKSAN — Infraestructura de datos auditable para banca, gobierno y sectores regulados">
+<meta property="og:description" content="Migramos datos heredados a Azure y Fabric, los gobernamos bajo DAMA-DMBOK, detectamos riesgos y fraude, y añadimos trazabilidad con estándar forense.">
+<meta property="og:url" content="https://www.tracksandata.com/es/">
+<meta property="og:image" content="https://www.tracksandata.com/assets/img/og-tracksan-es.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+<meta property="og:image:alt" content="TRACKSAN — Soluciones inteligentes de datos, diseñadas para resistir cualquier escrutinio.">
+<meta property="og:locale" content="es_LA">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="TRACKSAN — Infraestructura de datos auditable">
+<meta name="twitter:description" content="Migración de datos, gobernanza, detección de fraude y trazabilidad forense para organizaciones reguladas.">
+<meta name="twitter:image" content="https://www.tracksandata.com/assets/img/og-tracksan-es.png">
+
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#0A1628">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/styles.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://www.tracksandata.com/#organization",
+  "name": "TRACKSAN",
+  "url": "https://www.tracksandata.com/",
+  "image": "https://www.tracksandata.com/assets/img/og-tracksan.png",
+  "description": "Infraestructura de datos auditable para bancos, agencias de gobierno y organizaciones reguladas: migración de datos a Azure y Fabric, gobernanza bajo DAMA-DMBOK, detección de riesgo y fraude, y trazabilidad forense.",
+  "email": "info@tracksandata.com",
+  "telephone": "+1-858-365-0095",
+  "areaServed": [
+    { "@type": "Country", "name": "United States" },
+    { "@type": "Place", "name": "Latin America" }
+  ],
+  "knowsAbout": [
+    "Data migration", "Microsoft Azure", "Microsoft Fabric", "Data governance",
+    "DAMA-DMBOK", "Fraud detection", "Risk analytics", "Forensic traceability",
+    "AI auditability", "Expert witness services", "Tax controversy and litigation support",
+    "Criminal tax and white-collar matters", "Transfer pricing disputes"
+  ],
+  "sameAs": ["https://www.linkedin.com/company/105199540/"],
+  "employee": [
+    {
+      "@type": "Person",
+      "name": "Fernando Bastidas",
+      "jobTitle": "Partner, Data & Forensic Technology"
+    },
+    {
+      "@type": "Person",
+      "name": "Mariela Buitrón",
+      "jobTitle": "Head of Tax & Criminal Expert Witness Practice"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main" data-i18n="a11y.skip">Saltar al contenido</a>
+
+<!-- ============ TOPBAR ============ -->
+<header class="top">
+  <div class="wrap top-inner">
+    <a href="#top" class="logo">
+      <svg class="logo-mark" viewBox="0 0 48 48" fill="none">
+        <circle cx="24" cy="24" r="21" stroke="#C9A959" stroke-width="1.4" opacity="0.55"/>
+        <circle cx="24" cy="24" r="21" stroke="#C9A959" stroke-width="1.4" opacity="0.35" stroke-dasharray="2 3"/>
+        <circle cx="24" cy="10" r="2" fill="#F0F3F8"/>
+        <circle cx="36" cy="18" r="2" fill="#C9A959"/>
+        <circle cx="36" cy="30" r="2" fill="#F0F3F8"/>
+        <circle cx="24" cy="38" r="2" fill="#C9A959"/>
+        <circle cx="12" cy="30" r="2" fill="#F0F3F8"/>
+        <circle cx="12" cy="18" r="2" fill="#C9A959"/>
+        <circle cx="24" cy="24" r="2.6" fill="#F0F3F8"/>
+        <path d="M24 24L24 10M24 24L36 18M24 24L36 30M24 24L24 38M24 24L12 30M24 24L12 18" stroke="#9AACC4" stroke-width="0.8" opacity="0.5"/>
+      </svg>
+      <span class="logo-text">TRACKSAN<span class="tagline">Data, Risk &amp; Forensic Infrastructure</span></span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <div class="nav-links">
+        <a href="#practice" data-i18n="nav.services">Servicios</a>
+        <a href="#expertwitness" data-i18n="nav.expertwitness">Peritajes</a>
+        <a href="#method" data-i18n="nav.method">Metodología</a>
+        <a href="#sectors" data-i18n="nav.sectors">Sectores</a>
+        <a href="#team" data-i18n="nav.team">Equipo</a>
+      </div>
+      <div class="nav-right">
+        <a class="social-link" href="https://www.linkedin.com/company/105199540/" target="_blank" rel="noopener" aria-label="TRACKSAN on LinkedIn">
+          <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/>
+          </svg>
+        </a>
+        <a href="#contact" class="btn-nav-contact" data-i18n="nav.contact">Contacto</a>
+      </div>
+    </nav>
+
+    <div style="display:flex; align-items:center; gap:14px;">
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <a href="/" id="langEN">EN</a>
+        <a href="/es/" id="langES" class="active">ES</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<!-- ============ HERO ============ -->
+<div id="top"></div>
+<section class="hero">
+  <svg class="hero-mesh" viewBox="0 0 400 400" fill="none">
+    <circle cx="200" cy="200" r="150" stroke="#C9A959" stroke-width="0.7" opacity="0.25"/>
+    <circle cx="200" cy="200" r="110" stroke="#C9A959" stroke-width="0.7" opacity="0.2"/>
+    <circle cx="200" cy="200" r="70" stroke="#C9A959" stroke-width="0.7" opacity="0.15"/>
+    <circle cx="200" cy="50" r="3" fill="#C9A959" opacity="0.6"/>
+    <circle cx="330" cy="130" r="3" fill="#F0F3F8" opacity="0.4"/>
+    <circle cx="330" cy="270" r="3" fill="#C9A959" opacity="0.5"/>
+    <circle cx="200" cy="350" r="3" fill="#F0F3F8" opacity="0.3"/>
+    <circle cx="70" cy="270" r="3" fill="#C9A959" opacity="0.4"/>
+    <circle cx="70" cy="130" r="3" fill="#F0F3F8" opacity="0.5"/>
+    <path d="M200 200L200 50M200 200L330 130M200 200L330 270M200 200L200 350M200 200L70 270M200 200L70 130" stroke="#C9A959" stroke-width="0.5" opacity="0.25"/>
+  </svg>
+
+  <div class="wrap">
+    <div>
+      <span class="eyebrow" data-i18n="hero.eyebrow">Migración · Gobernanza · Detección de Riesgo · Auditoría Forense</span>
+      <h1 class="hero-title" data-i18n="hero.title">Soluciones inteligentes de datos, <em>diseñadas para resistir cualquier escrutinio.</em></em></h1>
+      <div class="hero-rule"></div>
+      <p class="hero-lede hero-lede-full" data-i18n="hero.lede">TRACKSAN migra sistemas legados on-premise hacia infraestructura de nube moderna como Microsoft Azure y Fabric, gobierna el resultado bajo DAMA-DMBOK, despliega modelos de detección de riesgo y fraude, y agrega una capa de trazabilidad con estándar forense — pensada para bancos, agencias de gobierno, grandes contribuyentes y otras organizaciones reguladas cuyos datos deben resistir el escrutinio de un examinador, un auditor o un tribunal.</p>
+      <p class="hero-lede hero-lede-short" data-i18n="hero.lede.short">Migramos, gobernamos, monitoreamos y auditamos datos regulados para que cada cifra pueda rastrearse hasta su origen ante un supervisor, un auditor o un tribunal.</p>
+      <div class="hero-cta-row">
+        <a href="#contact" class="btn btn-primary" data-i18n="hero.cta1">Solicitar una consulta</a>
+        <a href="#practice" class="btn btn-ghost" data-i18n="hero.cta2">Ver servicios</a>
+      </div>
+    </div>
+
+    <div class="hero-panel hero-panel--map reveal" id="migrationMap">
+      <div class="hero-panel-head">
+        <span class="tag" data-i18n="map.title">Mapa de migración — de on-prem a Azure, y más allá</span>
+        <span class="dot pulse" id="mapDot"></span>
+      </div>
+      <div class="map-wrap">
+        <svg viewBox="0 0 460 300" role="img" aria-label="Diagram: legacy on-premise systems such as Oracle, SQL Server and Sybase migrating primarily to Microsoft Azure, and optionally to other cloud platforms">
+          <text x="10" y="12" class="map-group-tag" data-i18n="map.legacyTag">LEGADO · ON-PREM</text>
+
+          <rect x="10" y="20" width="118" height="38" rx="7" fill="var(--surface-2)" stroke="var(--border-strong)"/>
+          <text x="69" y="43" text-anchor="middle" class="map-node-title">Oracle</text>
+
+          <rect x="10" y="64" width="118" height="38" rx="7" fill="var(--surface-2)" stroke="var(--border-strong)"/>
+          <text x="69" y="87" text-anchor="middle" class="map-node-title">SQL Server</text>
+
+          <rect x="10" y="108" width="118" height="38" rx="7" fill="var(--surface-2)" stroke="var(--border-strong)"/>
+          <text x="69" y="131" text-anchor="middle" class="map-node-title">Sybase</text>
+
+          <rect x="10" y="152" width="118" height="38" rx="7" fill="none" stroke="var(--border-strong)" stroke-dasharray="3 2"/>
+          <text x="69" y="175" text-anchor="middle" class="map-node-title muted" data-i18n="map.moreChip">+ más motores</text>
+
+          <path class="map-flow" d="M128,39 C165,39 165,97 202,99" stroke="var(--border-strong)"/>
+          <path class="map-flow mid" d="M128,83 C160,83 160,101 202,102" stroke="var(--border-strong)"/>
+          <path class="map-flow" d="M128,127 C165,127 165,106 202,105" stroke="var(--border-strong)"/>
+          <path class="map-flow faint" d="M128,171 C170,171 170,112 202,110" stroke="var(--border-strong)"/>
+
+          <circle cx="218" cy="103" r="15" fill="var(--surface-2)" stroke="var(--border-strong)"/>
+          <circle cx="218" cy="103" r="2.6" fill="var(--gold)"/>
+          <text x="218" y="132" text-anchor="middle" class="map-hub-caption" data-i18n="map.hubCaption">extraer → validar → cargar</text>
+
+          <path class="map-flow mid" d="M233,97 C270,97 275,58 310,56" stroke="var(--azure)"/>
+          <path class="map-flow faint" d="M233,109 C270,109 275,168 310,170" stroke="var(--border-strong)"/>
+
+          <text x="310" y="14" class="map-lane-tag" style="fill:var(--azure)" data-i18n="map.azureTag">DESTINO PREFERIDO</text>
+          <rect x="310" y="20" width="140" height="76" rx="7" fill="var(--azure-soft)" stroke="var(--azure)" stroke-opacity="0.55"/>
+          <text x="380" y="46" text-anchor="middle" class="map-node-title" style="font-weight:600">Microsoft Azure</text>
+          <text x="380" y="61" text-anchor="middle" class="map-node-title small">Data Factory · Synapse</text>
+          <text x="380" y="74" text-anchor="middle" class="map-node-title small muted" data-i18n="map.azureMore">+ más del stack</text>
+
+          <text x="310" y="130" class="map-lane-tag map-node-title muted" data-i18n="map.otherTag">TAMBIÉN SOPORTADO</text>
+          <rect x="310" y="136" width="140" height="66" rx="7" fill="none" stroke="var(--border-strong)" stroke-dasharray="3 2"/>
+          <text x="380" y="158" text-anchor="middle" class="map-node-title small muted" data-i18n="map.otherTitle">Otras plataformas cloud</text>
+          <text x="380" y="174" text-anchor="middle" class="map-node-title small muted">PostgreSQL · Aurora ·</text>
+          <text x="380" y="188" text-anchor="middle" class="map-node-title small muted">Snowflake · BigQuery · Databricks</text>
+
+          <g class="map-badge" data-badge>
+            <rect x="323" y="100" width="72" height="16" rx="8" fill="var(--bg)" stroke="var(--signal)" stroke-opacity="0.5"/>
+            <text x="359" y="111" text-anchor="middle" style="font-family:var(--font-mono); font-size:7px; fill:var(--signal)" data-i18n="map.verified">✓ verificado</text>
+          </g>
+          <g class="map-badge" data-badge>
+            <text x="380" y="216" text-anchor="middle" style="font-family:var(--font-mono); font-size:6.5px; fill:var(--text-faint)" data-i18n="map.compatible">✓ compatible bajo pedido</text>
+          </g>
+        </svg>
+      </div>
+      <div class="map-foot">
+        <span data-i18n="map.foot1">Cualquier motor legado · un solo estándar de validación</span>
+        <span class="accent" data-i18n="map.foot2">Azure-first</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="trust-strip">
+  <div class="wrap">
+    <span class="item" data-i18n="trust.migration">Migración de datos <span class="dash">·</span></span></span>
+    <span class="item" data-i18n="trust.governance">Integración y gobernanza <span class="dash">·</span></span></span>
+    <span class="item" data-i18n="trust.risk">Detección de riesgo y fraude <span class="dash">·</span></span></span>
+    <span class="item" data-i18n="trust.forensic">Auditabilidad forense de IA</span>
+  </div>
+</div>
+
+<!-- ============ PRACTICE / SERVICES ============ -->
+<section id="practice">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker" data-i18n="practice.kicker">Qué hacemos</span>
+      <h2 class="section-title" data-i18n="practice.sectiontitle">Cuatro servicios, una secuencia: migrar, integrar, detectar, auditar.</h2>
+      <p class="section-sub" data-i18n="practice.sectionsub">Ningún servicio se ofrece de forma aislada. La migración sin gobernanza no resuelve la auditabilidad, y la IA sin trazabilidad forense no resiste un examen regulatorio.</p>
+    </div>
+
+    <div class="service-list">
+      <div class="service-row reveal">
+        <span class="service-num">01</span>
+        <div class="service-name" data-i18n="svc.migration.name">Migración de datos</div>
+        <div class="service-desc" data-i18n="svc.migration.desc">Sistemas legados on-premise — Oracle, SQL Server, Sybase y plataformas equivalentes — migrados a infraestructura de nube moderna como Microsoft Azure y Fabric sobre arquitectura lakehouse, con una metodología que preserva la integridad histórica completa y el linaje desde el origen hasta el destino.</div>
+      </div>
+      <div class="service-row reveal">
+        <span class="service-num">02</span>
+        <div class="service-name" data-i18n="svc.governance.name">Integración y gobernanza</div>
+        <div class="service-desc" data-i18n="svc.governance.desc">Pipelines de integración construidos bajo el marco DAMA-DMBOK, con métricas de calidad, completitud y consistencia de datos, y documentación completa de linaje — convirtiendo datos dispersos en un activo confiable y auditable.</div>
+      </div>
+      <div class="service-row reveal">
+        <span class="service-num">03</span>
+        <div class="service-name" data-i18n="svc.risk.name">Detección de riesgo y fraude</div>
+        <div class="service-desc" data-i18n="svc.risk.desc">Modelos de clasificación de riesgo y detección de anomalías — aprendizaje no supervisado, alertas multivariables — aplicables tanto a administración tributaria y de beneficios como a instituciones financieras.</div>
+      </div>
+      <div class="service-row reveal">
+        <span class="service-num">04</span>
+        <div class="service-name" data-i18n="svc.forensic.name">Trazabilidad forense y auditabilidad de IA</div>
+        <div class="service-desc" data-i18n="svc.forensic.desc">El diferenciador: una capa de control de linaje construida con estándar probatorio forense, capaz de reconstruir el origen, la transformación y el uso de cualquier dato detrás de un modelo de IA o un reporte regulatorio — para que resista el escrutinio de un examinador bancario, un auditor o un tribunal.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERT WITNESS ============ -->
+<section id="expertwitness" class="tight">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker" data-i18n="ew.kicker">Peritajes y soporte pericial en litigios</span>
+      <h2 class="section-title" data-i18n="ew.title">Peritajes y soporte pericial en litigios, en materia tributaria y penal.</h2>
+      <p class="section-sub" data-i18n="ew.sub">En conjunto con nuestro equipo de datos, cada dictamen pericial se apoya en datos cuyo origen puede reconstruirse y defenderse ante un tribunal.</p>
+    </div>
+    <ul class="ew-list reveal">
+      <li data-i18n="ew.item1">Peritajes en controversias tributarias</li>
+      <li data-i18n="ew.item2">Controversias de precios de transferencia</li>
+      <li data-i18n="ew.item3">Peritajes en procesos penales tributarios y financieros: informes y sustentación</li>
+      <li data-i18n="ew.item4">Cuantificaciones y liquidaciones ordenadas judicialmente</li>
+      <li data-i18n="ew.item5">Soporte pericial a los abogados patrocinadores</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ METHOD ============ -->
+<section id="method" class="tight">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker" data-i18n="method.kicker">Cómo trabajamos</span>
+      <h2 class="section-title" data-i18n="method.title">Migrar. Integrar. Detectar. Auditar.</h2>
+      <p class="section-sub" data-i18n="method.sub">La misma secuencia en cada proyecto — cada paso depende del anterior, y ninguno se ofrece por separado.</p>
+    </div>
+
+    <div class="method-spine-wrap">
+      <div class="method-step reveal">
+        <span class="node-dot"></span><span class="method-connector"></span>
+        <span class="m-label" data-i18n="method.n1">Nodo 01 · Migrar</span>
+        <h3 data-i18n="method.t1">Sistemas legados, movidos intactos</h3>
+        <p data-i18n="method.p1">Sistemas Oracle, SQL Server y Sybase on-premise migrados a infraestructura de nube moderna como Microsoft Azure y Fabric sobre arquitectura lakehouse, preservando la integridad histórica completa y el linaje.</p>
+      </div>
+      <div class="method-step reveal">
+        <span class="node-dot"></span><span class="method-connector"></span>
+        <span class="m-label" data-i18n="method.n2">Nodo 02 · Integrar y Gobernar</span>
+        <h3 data-i18n="method.t2">Datos gobernados bajo DAMA-DMBOK</h3>
+        <p data-i18n="method.p2">Pipelines construidos con controles de calidad, completitud y consistencia de datos, y documentación completa de linaje desde el origen hasta el destino.</p>
+      </div>
+      <div class="method-step reveal">
+        <span class="node-dot"></span><span class="method-connector"></span>
+        <span class="m-label" data-i18n="method.n3">Nodo 03 · Detectar</span>
+        <h3 data-i18n="method.t3">Riesgo y fraude, hechos visibles</h3>
+        <p data-i18n="method.p3">Modelos de clasificación de riesgo no supervisados y de alertas de fraude multivariables aplicados sobre los datos ya gobernados.</p>
+      </div>
+      <div class="method-step reveal">
+        <span class="node-dot"></span>
+        <span class="m-label" data-i18n="method.n4">Nodo 04 · Auditar</span>
+        <h3 data-i18n="method.t4">Construido para resistir un examen</h3>
+        <p data-i18n="method.p4">Una capa de trazabilidad con estándar forense que reconstruye el origen, la transformación y el uso de cualquier dato detrás de un modelo de IA o un reporte regulatorio.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SECTORS ============ -->
+<section id="sectors">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker" data-i18n="sectors.kicker">A quién servimos</span>
+      <h2 class="section-title" data-i18n="sectors.title">Sectores regulados donde convergen los datos, lo tributario y la exposición a auditoría.</h2>
+    </div>
+
+    <div class="sector-grid reveal">
+      <div class="sector-cell">
+        <h3 data-i18n="sec1.h">Community banks, cooperativas de crédito y specialty finance</h3>
+        <p data-i18n="sec1.p">Instituciones financieras en proceso de transformación digital y operativa, donde entornos de datos fragmentados y requisitos regulatorios generan retos para el cumplimiento, el reporte y la toma de decisiones informada. El éxito depende de establecer bases de datos confiables, una gobernanza más sólida y estrategias de modernización escalables.</p>
+      </div>
+      <div class="sector-cell">
+        <h3 data-i18n="sec2.h">Agencias estatales de rentas y de seguro de desempleo</h3>
+        <p data-i18n="sec2.p">Organizaciones del sector público que buscan fortalecer el cumplimiento, la detección de fraude y la fiscalización mediante una mejor integración de datos, gobernanza y analítica. El éxito depende de crear entornos de datos confiables e interconectados que permitan decisiones más rápidas, una mejor gestión de riesgo y mayor rendición de cuentas pública.</p>
+      </div>
+      <div class="sector-cell">
+        <h3 data-i18n="sec3.h">Otras industrias reguladas</h3>
+        <p data-i18n="sec3.p">Este reto va más allá de las instituciones financieras y las agencias de gobierno, y alcanza a cualquier organización que opere en un entorno altamente regulado, donde la calidad de los datos, la gobernanza y la trazabilidad influyen directamente en los resultados de cumplimiento, la resiliencia operativa y la toma de decisiones ejecutivas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY ============ -->
+<section class="tight">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker" data-i18n="why.kicker">Por qué TRACKSAN</span>
+      <h2 class="section-title" data-i18n="why.title">Construido sobre un historial, no sobre un discurso.</h2>
+    </div>
+
+    <div class="why-grid">
+      <div class="why-item reveal">
+        <span class="why-mark">—</span>
+        <h3 data-i18n="why1.h">Un mismo estándar, para cualquier tipo de escrutinio</h3>
+        <p data-i18n="why1.p">Cada modelo y cada pipeline se construyen para reconstruir su propio linaje — el mismo rigor que exigiría un examinador bancario, un auditor estatal o un tribunal, documentado una sola vez.</p>
+      </div>
+      <div class="why-item reveal">
+        <span class="why-mark">—</span>
+        <h3 data-i18n="why2.h">Experiencia probada en instituciones públicas</h3>
+        <p data-i18n="why2.p">Nuestra experiencia abarca iniciativas de modernización de datos a gran escala, migración, cumplimiento y gestión de riesgo en organizaciones del sector público y de servicios financieros. En el Servicio de Rentas Internas del Ecuador, estas capacidades ayudaron a respaldar la recuperación de ingresos basada en riesgo y a reducir los ciclos de revisión de fraude. Hoy, los mismos principios se aplican a agencias estatales, instituciones financieras y otras organizaciones altamente reguladas de Estados Unidos que buscan una gobernanza, auditabilidad y toma de decisiones más sólidas.</p>
+      </div>
+      <div class="why-item reveal">
+        <span class="why-mark">—</span>
+        <h3 data-i18n="why3.h">Dos disciplinas forenses bajo un mismo equipo</h3>
+        <p data-i18n="why3.p">Fernando Bastidas, perito informático acreditado, dirige el equipo de datos y tecnología forense. Mariela Buitrón, perito tributaria y financiera acreditada con 25 años de experiencia, dirige el equipo de peritajes tributarios y penales. Forense de datos y pericia tributaria y financiera, aplicados en conjunto.</p>
+      </div>
+      <div class="why-item reveal">
+        <span class="why-mark">—</span>
+        <h3 data-i18n="why4.h">Azure-first, gobernado bajo DAMA-DMBOK</h3>
+        <p data-i18n="why4.p">Construido sobre Microsoft Azure y Fabric, bajo el mismo marco de gobernanza de datos aplicado como consultor del Banco Interamericano de Desarrollo — no una pila de herramientas genérica.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TEAM ============ -->
+<section id="team" class="tight">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker" data-i18n="team.kicker">Liderazgo y equipos</span>
+      <h2 class="section-title" data-i18n="team.title">Líderes con trayectoria al frente. Equipos especializados detrás de cada encargo.</h2>
+      <p class="section-sub" data-i18n="team.sub">Cada encargo de TRACKSAN está dirigido por profesionales con trayectoria y lo ejecutan dos equipos especializados que trabajan como uno solo: datos y tecnología forense, y peritajes tributarios y penales.</p>
+    </div>
+
+    <div class="team-grid">
+      <div class="team-col reveal">
+        <div class="team-card">
+          <img src="../assets/img/fernando.jpg" alt="Fernando Bastidas, Partner, Data &amp; Forensic Technology" class="team-photo" width="120" height="120" loading="lazy" decoding="async">
+          <h3 class="team-name">Fernando Bastidas</h3>
+          <span class="team-role" data-i18n="team.fernando.role">Socio, Datos y Tecnología Forense</span>
+          <p data-i18n="team.fernando.bio">Fernando lidera la práctica de ingeniería de datos y tecnología forense de TRACKSAN. Ingeniero de datos senior con más de 20 años de experiencia, ha liderado programas empresariales de migración y gobernanza de datos sobre Microsoft Azure y Fabric, y trabajó previamente en el Servicio de Rentas Internas del Ecuador y en el Banco Interamericano de Desarrollo. Es perito informático judicial certificado por el Consejo de la Judicatura del Ecuador.</p>
+        </div>
+        <div class="team-unit">
+          <svg class="team-unit-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C9A959" stroke-width="1.4" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+          <h3 data-i18n="team.unit1.name">Equipo de Datos y Tecnología Forense</h3>
+          <p data-i18n="team.unit1.desc">Migración de datos a Microsoft Azure y Fabric, gobierno bajo DAMA-DMBOK, analítica de riesgo y fraude, y un linaje con estándar forense que reconstruye el origen de cada cifra.</p>
+        </div>
+      </div>
+      <div class="team-col reveal">
+        <div class="team-card">
+          <img src="../assets/img/mariela.jpg" alt="Mariela Buitrón, Head of Tax &amp; Criminal Expert Witness Practice" class="team-photo" width="120" height="120" loading="lazy" decoding="async">
+          <h3 class="team-name">Mariela Buitrón</h3>
+          <span class="team-role" data-i18n="team.mariela.role">Directora de Peritajes Tributarios y Penales</span>
+          <p data-i18n="team.mariela.bio">Mariela dirige el equipo de peritajes tributarios y penales de TRACKSAN. Con 25 años de experiencia, dirigió el equipo nacional de peritos tributarios para grandes contribuyentes del Servicio de Rentas Internas del Ecuador. Es perito acreditada por el Consejo de la Judicatura y ha sustentado informes periciales en controversias tributarias, casos de precios de transferencia y procesos penales.</p>
+        </div>
+        <div class="team-unit">
+          <svg class="team-unit-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C9A959" stroke-width="1.4" aria-hidden="true"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/></svg>
+          <h3 data-i18n="team.unit2.name">Equipo de Peritajes Tributarios y Penales</h3>
+          <p data-i18n="team.unit2.desc">Peritos que elaboran y sustentan informes en controversias tributarias, precios de transferencia y procesos penales en materia tributaria y financiera, bajo la dirección de Mariela Buitrón.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact">
+  <div class="wrap contact-grid">
+    <div class="contact-copy reveal">
+      <span class="kicker" data-i18n="contact.kicker">Contacto</span>
+      <h2 data-i18n="contact.title">Cada proyecto comienza con una conversación confidencial.</h2>
+      <p data-i18n="contact.body">Cuéntenos el contexto de su caso o proyecto. Responderemos con los siguientes pasos y, si corresponde, un acuerdo de confidencialidad previo a cualquier intercambio de información.</p>
+
+      <div class="contact-methods">
+        <div class="contact-method"><span class="lbl" data-i18n="contact.email">Correo</span> <a href="mailto:info@tracksandata.com">info@tracksandata.com</a></div>
+        <div class="contact-method"><span class="lbl" data-i18n="contact.scope">Alcance</span> <span data-i18n="contact.scopeval">Proyectos y casos internacionales</span></div>
+        <div class="contact-method"><span class="lbl" data-i18n="contact.response">Respuesta</span> <span data-i18n="contact.responseval">Dentro de 1 día hábil</span></div>
+      </div>
+
+      <div class="contact-actions">
+        <button type="button" class="btn btn-primary btn-schedule" data-cal-namespace="consultation" data-cal-link="fernando-j.-bastidas-zyu76y" data-cal-config='{"layout":"month_view"}'>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/><path d="M8 14h2M8 17h2M14 14h2M14 17h2"/></svg>
+          <span data-i18n="contact.schedule">Agendar una llamada</span>
+        </button>
+
+        <a href="https://wa.me/18583650095" target="_blank" rel="noopener" class="btn btn-ghost btn-whatsapp">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.2-.4.1-.2 0-.3 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-1 1-1 2.3 0 1.4 1 2.7 1.1 2.9.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.3 0-.1-.2-.2-.5-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.1L2 22l5.1-1.3C8.6 21.5 10.3 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-2.9-.2-.3C4.2 15 3.8 13.5 3.8 12c0-4.5 3.7-8.2 8.2-8.2s8.2 3.7 8.2 8.2-3.7 8.2-8.2 8.2z"/></svg>
+          <span data-i18n="contact.whatsapp">Escríbenos por WhatsApp</span>
+        </a>
+      </div>
+
+      <p class="contact-linkedin">
+        <a href="https://www.linkedin.com/company/105199540/" target="_blank" rel="noopener" data-i18n="contact.linkedin">Siga a TRACKSAN en LinkedIn para conocer análisis sobre datos auditables, prevención del fraude y trazabilidad forense.</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <a href="#top" class="footer-logo">
+        <svg class="logo-mark" viewBox="0 0 48 48" fill="none">
+          <circle cx="24" cy="24" r="21" stroke="#C9A959" stroke-width="1.4" opacity="0.55"/>
+          <circle cx="24" cy="10" r="2" fill="#F0F3F8"/>
+          <circle cx="36" cy="18" r="2" fill="#C9A959"/>
+          <circle cx="36" cy="30" r="2" fill="#F0F3F8"/>
+          <circle cx="24" cy="38" r="2" fill="#C9A959"/>
+          <circle cx="12" cy="30" r="2" fill="#F0F3F8"/>
+          <circle cx="12" cy="18" r="2" fill="#C9A959"/>
+          <circle cx="24" cy="24" r="2.6" fill="#F0F3F8"/>
+          <path d="M24 24L24 10M24 24L36 18M24 24L36 30M24 24L24 38M24 24L12 30M24 24L12 18" stroke="#9AACC4" stroke-width="0.8" opacity="0.5"/>
+        </svg>
+        <span class="footer-logo-text">TRACKSAN</span>
+      </a>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <p class="footer-title" data-i18n="foot.services">Servicios</p>
+          <a href="#practice" data-i18n="foot.s1">Migración de datos</a>
+          <a href="#practice" data-i18n="foot.s2">Integración y gobernanza</a>
+          <a href="#practice" data-i18n="foot.s3">Detección de riesgo y fraude</a>
+          <a href="#practice" data-i18n="foot.s4">Trazabilidad forense y auditabilidad de IA</a>
+          <a href="#expertwitness" data-i18n="foot.s5">Peritajes y soporte pericial en litigios</a>
+        </div>
+        <div class="footer-col">
+          <p class="footer-title" data-i18n="foot.company">Empresa</p>
+          <a href="#method" data-i18n="foot.c1">Metodología</a>
+          <a href="#sectors" data-i18n="foot.c2">Sectores</a>
+          <a href="#team" data-i18n="foot.c3">Equipo</a>
+        </div>
+        <div class="footer-col">
+          <p class="footer-title" data-i18n="foot.contact">Contacto</p>
+          <a href="mailto:info@tracksandata.com">info@tracksandata.com</a>
+          <a href="#contact" data-i18n="foot.form">Contáctanos</a>
+          <a class="footer-social" href="https://www.linkedin.com/company/105199540/" target="_blank" rel="noopener" aria-label="TRACKSAN on LinkedIn">
+            <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+            <span data-i18n="foot.linkedin">LinkedIn</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-i18n="foot.rights">© 2026 TRACKSAN. Todos los derechos reservados.</span>
+      <span data-i18n="foot.tag">Data, Risk & Forensic Infrastructure</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js"></script>
+
+<script type="text/javascript">
+  (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if (typeof namespace === "string") { cal.ns[namespace] = cal.ns[namespace] || api; p(cal.ns[namespace], ar); p(cal, ["initNamespace", namespace]); } else p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+  Cal("init", "consultation", {origin: "https://cal.com"});
+  Cal.ns["consultation"]("ui", {
+    "theme": "dark",
+    "styles": {"branding": {"brandColor": "#C9A959"}},
+    "hideEventTypeDetails": false,
+    "layout": "month_view"
+  });
+</script>
+
+</body>
+</html>
